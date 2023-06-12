@@ -8,10 +8,7 @@ const ProjectPage = () => {
         return `
             <div>
                 <h2>${project.title}</h2>
-                <p>${project.description}</p>
-                <img src="${project.image}">
-                <p>${project.url}</p>
-                <p>${project.repository}</p>
+                <p>${project.content}</p>
             </div>
         `
     }).join("")}

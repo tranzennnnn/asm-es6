@@ -9,10 +9,7 @@ const AddProjectPage = () => {
             event.preventDefault();
             const newProject = {
                 "title": document.querySelector("#title").value,
-                "description": document.querySelector("#description").value,
-                "image": document.querySelector("#image").value,
-                "url": document.querySelector("#url").value,
-                "repository": document.querySelector("#repository").value
+                "content": document.querySelector("#content").value
             }
             // fetch(`http://localhost:3000/projectList`, {
             //     method: 'POST',
@@ -32,10 +29,7 @@ const AddProjectPage = () => {
     return /*html*/`
         <form action="" id="add-form">
             <input type="text" placeholder="Project title" id="title"/>
-            <input type="text" placeholder="Project description" id="description"/>
-            <input type="file" placeholder="Project image" id="image"/>
-            <input type="text" placeholder="Project url" id="url"/>
-            <input type="text" placeholder="Project repository" id="repository"/>
+            <input type="text" placeholder="Project content" id="content"/>
             <button>Add New Project</button>
         </form>
     `

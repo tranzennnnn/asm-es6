@@ -3,12 +3,11 @@ import HomePage from "./pages/Home"
 // import Navigo from 'navigo'
 import NotFoundPage from "./pages/NotFoundPage"
 import ProjectPage from "./pages/Project"
-import ProjectDetailPage from "./pages/ProjectDetails"
+import ProjectDetailPage from "./pages/ProjectDetail"
 import { router, render } from './lib'
 import ProjectManagementPage from "./pages/Admin/ProjectManagement"
 import AddProjectPage from "./pages/Admin/AddProject"
 import UpdateProjectPage from "./pages/Admin/UpdateProject"
-
 
 const app = document.querySelector("#app") //tìm phần tử html có id là app
 
