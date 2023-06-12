@@ -1,0 +1,65 @@
+{
+  "projectList": [
+    {
+      "title": "Bai viet 1 update 2",
+      "description": "Noi dung bai viet 1 update",
+      "id": 1,
+      "image": "https://picsum.photos/150/100",
+      "url": "https://seta-international.com/",
+      "repository": "https://github.com/sontv"
+    },
+    {
+      "id": 2,
+      "title": "Bai viet 2",
+      "description": "Noi dung bai viet 2",
+      "image": "https://picsum.photos/150/100",
+      "url": "https://seta-international.com/",
+      "repository": "https://github.com/sontv"
+    },
+    {
+      "id": 3,
+      "title": "Bai viet 3",
+      "description": "Noi dung bai viet 3",
+      "image": "https://picsum.photos/150/100",
+      "url": "https://seta-international.com/",
+      "repository": "https://github.com/sontv"
+    },
+    {
+      "id": 4,
+      "title": "Bai viet 4",
+      "description": "Noi dung bai viet 4",
+      "image": "https://picsum.photos/150/100",
+      "url": "https://seta-international.com/",
+      "repository": "https://github.com/sontv"
+    },
+    {
+      "id": 5,
+      "title": "demo update",
+      "content": "demo"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "sontv",
+      "password": "123456",
+      "roleId": 1
+    },
+    {
+      "id": 2,
+      "username": "thienth",
+      "password": "123456",
+      "roleId": 1
+    }
+  ],
+  "role": [
+    {
+      "id": 1,
+      "name": "admin"
+    },
+    {
+      "id": 2,
+      "name": "user"
+    }
+  ]
+}
